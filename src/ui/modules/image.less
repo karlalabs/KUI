@@ -1,0 +1,89 @@
+.ui.image {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+img.ui.image {
+    display: block;
+}
+
+.ui.image svg,
+.ui.image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.ui.hidden.images,
+.ui.hidden.image {
+    display: none;
+}
+
+.ui.hidden.transition.images,
+.ui.hidden.transition.image {
+  display: block;
+  visibility: hidden;
+}
+
+.ui.images > .hidden.transition {
+  display: inline-block;
+  visibility: hidden;
+}
+
+/*--- Inline ---*/
+
+.ui.inline.image,
+.ui.inline.image svg,
+.ui.inline.image img {
+  display: inline-block;
+}
+
+/*--- Vertical Aligned ---*/
+
+.ui.top.aligned.images .image,
+.ui.top.aligned.image,
+.ui.top.aligned.image svg,
+.ui.top.aligned.image img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ui.middle.aligned.images .image,
+.ui.middle.aligned.image,
+.ui.middle.aligned.image svg,
+.ui.middle.aligned.image img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ui.bottom.aligned.images .image,
+.ui.bottom.aligned.image,
+.ui.bottom.aligned.image svg,
+.ui.bottom.aligned.image img {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.ui.fluid.images,
+.ui.fluid.image,
+.ui.fluid.images img,
+.ui.fluid.images svg,
+.ui.fluid.image svg,
+.ui.fluid.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ui.avatar.images .image,
+.ui.avatar.images img,
+.ui.avatar.images svg,
+.ui.avatar.image img,
+.ui.avatar.image svg,
+.ui.avatar.image {
+    width: 2.1em;
+    height: 2.1em;
+    border-radius: 50%;
+}

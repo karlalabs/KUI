@@ -1,0 +1,60 @@
+@import "/src/config.less";
+
+.ui.container {
+    display: block;
+    width: @maxWidth;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: @mobileWidth) and (min-height: @mobileHeight)
+{
+    .ui.container {
+        width: @mobileWidth;
+        margin-left: @mobileGutter;
+        margin-right: @mobileGutter;
+    }
+    
+    .ui.grid.container {
+        width: @mobileWidth;
+    }
+}
+
+@media only screen and (min-width: @tabletWidth) and (min-height: @tabletHeight)
+{
+    .ui.container {
+        width: @tabletWidth;
+        margin-left: @tabletGutter;
+        margin-right: @tabletGutter;
+    }
+    
+    .ui.grid.container {
+        width: @tabletWidth;
+    }
+}
+
+@media only screen and (min-width: @smallestMonitorWidth) and (min-height: @smallestMonitorHeight)
+{
+    .ui.container {
+        width: @smallestMonitorWidth;
+        margin-left: @computerGutter;
+        margin-right: @computerGutter;
+    }
+    
+    .ui.grid.container {
+        width: @smallestMonitorWidth;
+    }
+}
+
+@media only screen and (min-width: @largestMonitorWidth) and (min-height: @largestMonitorHeight)
+{
+    .ui.container {
+        width: @largestMonitorWidth;
+        margin-left: @computerGutter;
+        margin-right: @computerGutter;
+    }
+    
+    .ui.grid.container {
+        width: @largestMonitorWidth;
+    }
+}
