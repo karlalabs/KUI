@@ -1,0 +1,311 @@
+/*
+ __  __         __    __                    
+|  |/  |.--.--.|__|  |  |.-----.-----.-----.
+|     < |  |  ||  |__|  ||  -__|__ --|__ --|
+|__|\__||_____||__|__|__||_____|_____|_____|
+                                            
+*/
+/* colors */
+/* hover */
+.ui.button {
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  user-select: none;
+}
+.ui.button.radius.circle {
+  border-radius: 50%;
+}
+.ui.button.radius.s1 {
+  border-radius: 0.1em;
+}
+.ui.button.radius.s2 {
+  border-radius: 0.2em;
+}
+.ui.button.radius.s3 {
+  border-radius: 0.3em;
+}
+.ui.button.radius.s4 {
+  border-radius: 0.4em;
+}
+.ui.button.radius.s5 {
+  border-radius: 0.5em;
+}
+.ui.button.radius.s6 {
+  border-radius: 0.6em;
+}
+.ui.button.radius.s7 {
+  border-radius: 0.7em;
+}
+.ui.button.radius.s8 {
+  border-radius: 0.8em;
+}
+.ui.button.radius.s9 {
+  border-radius: 0.9em;
+}
+.ui.button.radius.s10 {
+  border-radius: 1em;
+}
+/*--- Pink ---*/
+.ui.pink.button {
+  background-color: pink;
+}
+.ui.pink.button:hover {
+  background-color: rgba(255, 192, 203, 0.603);
+}
+/*--- blue ---*/
+.ui.blue.button {
+  background-color: blue;
+}
+.ui.blue.button:hover {
+  background-color: rgba(0, 0, 255, 0.61);
+}
+/*--- green ---*/
+.ui.green.button {
+  background-color: green;
+}
+.ui.green.button:hover {
+  background-color: rgba(0, 128, 0, 0.623);
+}
+/*--- lime ---*/
+.ui.lime.button {
+  background-color: lime;
+}
+.ui.lime.button:hover {
+  background-color: rgba(0, 255, 0, 0.63);
+}
+/*--- purple ---*/
+.ui.purple.button {
+  background-color: purple;
+}
+.ui.purple.button:hover {
+  background-color: rgba(128, 0, 128, 0.63);
+}
+/*--- cyan ---*/
+.ui.cyan.button {
+  background-color: cyan;
+}
+.ui.cyan.button:hover {
+  background-color: rgba(0, 255, 255, 0.562);
+}
+/*--- teal ---*/
+.ui.teal.button {
+  background-color: teal;
+}
+.ui.teal.button:hover {
+  background-color: rgba(0, 128, 128, 0.596);
+}
+/*--- cornflower ---*/
+.ui.cornflower.button {
+  background-color: cornflowerblue;
+}
+.ui.cornflower.button:hover {
+  background-color: rgba(100, 148, 237, 0.575);
+}
+/*--- gray ---*/
+.ui.gray.button {
+  background-color: gray;
+}
+.ui.gray.button:hover {
+  background-color: rgba(128, 128, 128, 0.651);
+}
+/*--- black ---*/
+.ui.black.button {
+  background-color: black;
+}
+.ui.black.button:hover {
+  background-color: rgba(0, 0, 0, 0.596);
+}
+/*--- red ---*/
+.ui.red.button {
+  background-color: red;
+}
+.ui.red.button:hover {
+  background-color: rgba(255, 0, 0, 0.685);
+}
+.ui.duration.ms100 {
+  transition-duration: 100ms;
+}
+.ui.duration.ms200 {
+  transition-duration: 200ms;
+}
+.ui.duration.ms300 {
+  transition-duration: 300ms;
+}
+.ui.duration.ms400 {
+  transition-duration: 400ms;
+}
+.ui.duration.ms500 {
+  transition-duration: 500ms;
+}
+.ui.container {
+  display: block;
+  width: 100%;
+}
+/* Mobile */
+@media only screen and (max-width: 414px) and (min-height: 915px) {
+  .ui.container {
+    width: 414px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .ui.grid.container {
+    width: 414px;
+  }
+}
+@media only screen and (min-width: 810px) and (min-height: 1080px) {
+  .ui.container {
+    width: 810px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .ui.grid.container {
+    width: 810px;
+  }
+}
+@media only screen and (min-width: 640px) and (min-height: 480px) {
+  .ui.container {
+    width: 640px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .ui.grid.container {
+    width: 640px;
+  }
+}
+@media only screen and (min-width: 3840px) and (min-height: 1080px) {
+  .ui.container {
+    width: 3840px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .ui.grid.container {
+    width: 3840px;
+  }
+}
+.ui.header {
+  border: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.ui.header > .icon {
+  display: table-cell;
+}
+h1.ui.header {
+  font-size: 2em;
+}
+h2.ui.header {
+  font-size: 1.5em;
+}
+h3.ui.header {
+  font-size: 1.3em;
+}
+h4.ui.header {
+  font-size: 1em;
+}
+h5.ui.header {
+  font-size: 0.8em;
+}
+h6.ui.header {
+  font-size: 0.7em;
+}
+.icon.hamburger {
+  mask-image: url(/lib/hamburger-list.svg);
+  mask-repeat: no-repeat;
+  background-image: black;
+  user-select: none;
+  mask-size: 20px;
+  height: 25px;
+  padding-right: 2rem;
+}
+.icon.bitcoin {
+  mask-image: url(/lib/bitcoin.svg);
+  mask-repeat: no-repeat;
+  background-image: black;
+  user-select: none;
+  mask-size: 20px;
+  height: 25px;
+  padding-right: 2rem;
+}
+.icon.discord {
+  mask-image: url(/lib/discord.svg);
+  mask-repeat: no-repeat;
+  background-image: black;
+  user-select: none;
+  mask-size: 20px;
+  height: 25px;
+  padding-right: 2rem;
+}
+.icon.github {
+  mask-image: url(/lib/github.svg);
+  mask-repeat: no-repeat;
+  background-image: black;
+  user-select: none;
+  mask-size: 20px;
+  margin: 3rem;
+  padding-right: 2rem;
+}
+.icon.safari {
+  mask-image: url(/lib/safari.svg);
+  mask-repeat: no-repeat;
+  background-image: black;
+  user-select: none;
+  padding-right: 2rem;
+}
+.icon.twitter {
+  mask-image: url(/lib/twitter.svg);
+  mask-repeat: no-repeat;
+  background-image: black;
+  user-select: none;
+  mask-size: 20px;
+  height: 25px;
+  padding-right: 2rem;
+}
+.icon.steam {
+  mask-image: url(/lib/steam.svg);
+  mask-repeat: no-repeat;
+  user-select: none;
+  background-image: black;
+  mask-size: 20px;
+  height: 25px;
+  padding-right: 2rem;
+}
+.icon.edge {
+  mask-image: url(/lib/edge.svg);
+  mask-repeat: no-repeat;
+  user-select: none;
+  background-image: black;
+  mask-size: 20px;
+  height: 25px;
+  padding-right: 2rem;
+}
+.icon.ethereum {
+  mask-image: url(/lib/ethereum.svg);
+  mask-repeat: no-repeat;
+  background-image: black;
+  user-select: none;
+  mask-size: 20px;
+  height: 25px;
+  padding-right: 2rem;
+}
+.icon.size.h1 {
+  mask-size: 2em;
+}
+.icon.size.h2 {
+  mask-size: 1.5em;
+}
+.icon.size.h3 {
+  mask-size: 1.3em;
+}
+.icon.size.h4 {
+  mask-size: 1em;
+}
+.icon.size.h5 {
+  mask-size: 0.8em;
+}
+.icon.size.h6 {
+  mask-size: 0.7em;
+}
